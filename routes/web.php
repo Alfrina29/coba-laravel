@@ -35,8 +35,6 @@ Route::get('/about', function () {
             ]
         ];
     return view('about', [
-        "tittle" => 'About',
-        "name" => "Alfrina", "image" => "Cia.jpg",
     "films" => $films]);
 });
 
